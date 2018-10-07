@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Srisakdi', cursive;
+	background-color: #00693e;
+}
+h2{
+	text-align: center;
+}
+.content{
+	width: 60%;
+	max-width: 900px;
+	margin: auto;
+	padding: 50px;
+	background-color: #fff;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+img{
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: 30px auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+.content_p{
+	font-size: 25px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.main-heading{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.img-box{
+	display: flex;
+	-ms-align-items:center;
+	align-items: center;
+}
+.img-box__img{
+	width: calc(50% - 15px);
+}
+.img-box__img + .img-box__img{
+    margin-right: 15px;
+}
