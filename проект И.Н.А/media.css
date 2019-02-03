@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1200px) {
+	.section_header{
+		height: 100px;
+		margin-bottom: 50px;
+	}
+	.header{
+		padding: 25px 30px;
+	}
+	.advantages_content{
+        justify-content: space-around;
+	}
+	.cotalog_content{
+		justify-content: space-around;
+	}
+	.cotalog_item:hover{
+		transform: scale(1);
+		box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.25);
+	}
+	.card{
+		position: relative;
+		bottom: 0;
+		right: 0;
+		justify-content: center;
+		border: none;
+		background-color: #fff;
+		color: #fff;
+	}
+	.card_logo{
+		padding: 20px;
+	}
+	.card_text{
+		padding: 10px 5px;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.section_header{
+		height: 100px;
+		margin-bottom: 50px;
+	}
+	.btn{
+		font-size: 30px;
+		padding: 20px 30px;
+	}
+	.header{
+		padding: 25px 30px;
+	}
+	.menu li{
+		margin-left: 10px;
+	}
+	.menu li a{
+		font-size: 20px;
+	}
+	.main_text{
+		text-align: center;
+	}
+	.advantages_content{
+		flex-wrap: wrap;
+	}
+	.item{
+		width: 40%;
+	}
+	.cotalog_item{
+		width: auto;
+		margin:20px 60px;
+	}
+	.cotalog_item hover{
+		transform: scale(1);
+		box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.25);
+	}
+	.card{
+		position: relative;
+		bottom: 0;
+		right: 0;
+		flex-direction: column;
+		border: none;
+		background-color: #2b4554;
+		color: #fff;
+	}
+	.card_logo{
+		padding: 20px;
+	}
+	.card_text{
+		padding: 10px 5px;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 600px){
+	.section_header{
+		height: 100px;
+		margin-bottom: 50px;
+	}
+	.header{
+		flex-direction: column;
+	}
+	.header_menu{
+		display: none;
+	}
+	.nav-link{
+    display: block;
+	}
+	.main_text{
+		text-align: center;
+	}
+	.advantages_content{
+		flex-direction: column;
+	}
+	.cotalog_item{
+    width: auto;
+    margin: 20px;
+	}
+	.cotalog_item:hover{
+		transform: scale(1);
+		box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+	}
+	.card{
+		position: relative;
+		bottom: 0px;
+		right: 0px;
+		flex-direction: column;
+		border: none;
+		background-color: #2b4554;
+	}
+	.card_logo{
+		padding: 20px;
+	}
+	.card_text{
+		padding: 10px;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 320){
+	.section_header{
+		height: 100px;
+		margin-bottom: 50px;
+	}
+	.header{
+		display: block;
+	}
+	.header_menu{
+		display: none;
+	}
+	.main_text{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.main_text h1{
+		font-size: 60px;
+		margin-bottom: 30px;
+	}
+	.main_text span{
+		font-size: 12px;
+	}
+	.advantages_content{
+		flex-direction: column;
+	}
+	.cotalog_item{
+		width: auto;
+		margin: 15px;
+	}
+	.cotalog_item:hover{
+		transform: scale(1);
+		box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.25);  
+	}
+	.card{
+		position: relative;
+		bottom: 0;
+		right: 0;
+		flex-direction: column;
+		border: none;
+		background-color: #2b4554;
+	}
+	.card_logo{
+		padding: 20px;
+	}
+	.card_text{
+		padding: 10px;
+		text-align: center;
+	}
+}
